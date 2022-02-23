@@ -11,7 +11,7 @@ var searchData=
   ['getg',['getG',['../class_pixel.html#a50b393bee1d4717d541c298743d7527d',1,'Pixel']]],
   ['getimagenoriginal',['getImagenOriginal',['../class_graficador.html#a7d69433b80e0b67f07cf6e075eb688db',1,'Graficador']]],
   ['getlistadeatajos',['getListaDeAtajos',['../class_interfaz.html#a6d01545c8a4ca17a54eccaf2a43765de',1,'Interfaz']]],
-  ['getlistadodearchivos',['getListadoDeArchivos',['../class_interfaz.html#a7d7235ed5b5f6af6e6581bb9c3b5a22e',1,'Interfaz::getListadoDeArchivos()'],['../class_sistema.html#a2532ddd8eda876873f64aa5efbd7ab4f',1,'Sistema::getListadoDeArchivos()']]],
+  ['getlistadodearchivos',['getListadoDeArchivos',['../class_interfaz.html#a7d7235ed5b5f6af6e6581bb9c3b5a22e',1,'Interfaz::getListadoDeArchivos()'],['../class_sistema.html#adc3f48c3fbc39373313a63fa0a5d777f',1,'Sistema::getListadoDeArchivos()']]],
   ['getmaxrangodinamico',['getMaxRangoDinamico',['../class_imagen.html#ae73a42e14048247f139c2f1b0f233d92',1,'Imagen']]],
   ['getmetadatos',['getMetadatos',['../class_imagen.html#ae6d079c82d08136ed8e7474333150ac0',1,'Imagen']]],
   ['getmoda',['getModa',['../class_estadistica.html#aa08d5b85f6a90ff1dd81c068637e329e',1,'Estadistica']]],

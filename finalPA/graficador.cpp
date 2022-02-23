@@ -197,8 +197,8 @@ void Graficador::graficarRectanguloZoom()
         glColor3f(1.0f,1.0f,0.0f);
         glVertex2i(posicionInicialX, imagen.getAltoImagen() - posicionInicialY);
         glVertex2i(posicionInicialX, imagen.getAltoImagen() - posicionMomentaneaY);
-        glVertex2i(posicionMomentaneaX,imagen.getAltoImagen() - posicionMomentaneaX);
-        glVertex2i(posicionMomentaneaX,imagen.getAltoImagen() - posicionInicialX);
+        glVertex2i(posicionMomentaneaX,imagen.getAltoImagen() - posicionMomentaneaY);
+        glVertex2i(posicionMomentaneaX,imagen.getAltoImagen() - posicionInicialY);
         glEnd();
 
         glPopMatrix();
@@ -236,6 +236,7 @@ void Graficador::paintGL()
         glOrtho(posicionVentanaInicialX, posicionVentanaFinalX, height() - posicionVentanaFinalY, height() - posicionVentanaInicialY, -1, 1);
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
+
     }else
     {
         glMatrixMode(GL_PROJECTION);
@@ -367,7 +368,7 @@ void Graficador::keyPressEvent(QKeyEvent *pEvent)
 
     if(controlPresionado && flechaArribaPresionada)
     {
-//        ANDA
+//        ANDA problema con la cantidad(grupo luts 1
         if(indiceLUT < (int)listadoLUT.size()-1)
         {
             indiceLUT++;
@@ -384,14 +385,16 @@ void Graficador::keyPressEvent(QKeyEvent *pEvent)
         if(indiceLUT>-1)
         {
             indiceLUT--;
-        }
-        lut.leerArchivoLUT(auxDirectorioLUT+listadoLUT[indiceLUT]);
-        getImagenOriginal();
-        lut.pseudocolorear(&imagen);
-        if(indiceLUT == -1)
-        {
+            if(indiceLUT == -1)
+            {
+                getImagenOriginal();
+            }else{
+            lut.leerArchivoLUT(auxDirectorioLUT+listadoLUT[indiceLUT]);
             getImagenOriginal();
+            lut.pseudocolorear(&imagen);
+            }
         }
+
     }
 
     if(controlPresionado && cPresionada)

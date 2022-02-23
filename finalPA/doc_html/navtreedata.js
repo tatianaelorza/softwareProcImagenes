@@ -26,7 +26,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_l_u_t_8cpp.html",
-"class_sistema.html"
+"class_q_open_g_l_functions.html"
 ];
 
 var SYNCONMSG = 'click en deshabilitar sincronización';

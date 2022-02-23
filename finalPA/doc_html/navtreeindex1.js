@@ -1,8 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"class_q_open_g_l_functions.html":[2,0,14],
+"class_q_open_g_l_widget.html":[2,0,15],
 "class_sistema.html":[2,0,16],
 "class_sistema.html#a1adc4f70dc080ab376e8d58de17566c1":[2,0,16,10],
-"class_sistema.html#a2532ddd8eda876873f64aa5efbd7ab4f":[2,0,16,2],
 "class_sistema.html#a288961ddc8eb9975b9519567d89cc659":[2,0,16,13],
 "class_sistema.html#a42fe8108a30df34c18d7410dfecae4ee":[2,0,16,3],
 "class_sistema.html#a5348ae6ededeb270e7374a1acf5b82c7":[2,0,16,9],
@@ -18,6 +19,7 @@ var NAVTREEINDEX1 =
 "class_sistema.html#aa29ce82b7c5cb4914073875ee6b88a94":[2,0,16,17],
 "class_sistema.html#aa740e3ab008c841277fc2fa490acc8fd":[2,0,16,4],
 "class_sistema.html#aca835cbfcae6672a1cf753a940fcc699":[2,0,16,15],
+"class_sistema.html#adc3f48c3fbc39373313a63fa0a5d777f":[2,0,16,2],
 "class_sistema.html#ae7f459b83330328fe37c7c660d63b94d":[2,0,16,16],
 "classes.html":[2,1],
 "deteccion_8cpp.html":[3,0,6],
@@ -45,8 +47,8 @@ var NAVTREEINDEX1 =
 "filtro_pasa_bajos_8cpp_source.html":[3,0,16],
 "filtro_pasa_bajos_8h.html":[3,0,17],
 "filtro_pasa_bajos_8h_source.html":[3,0,17],
-"functions.html":[2,3,0],
 "functions.html":[2,3,0,0],
+"functions.html":[2,3,0],
 "functions_0x7e.html":[2,3,0,19],
 "functions_b.html":[2,3,0,1],
 "functions_c.html":[2,3,0,2],

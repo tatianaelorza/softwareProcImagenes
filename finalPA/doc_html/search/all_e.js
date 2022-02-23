@@ -2,7 +2,7 @@ var searchData=
 [
   ['pagina_5fprincipal_2eh',['pagina_principal.h',['../pagina__principal_8h.html',1,'']]],
   ['paintgl',['paintGL',['../class_graficador.html#ae4688453e2b0aaff457a17b0a29f1ba5',1,'Graficador']]],
-  ['pintarimagen',['pintarImagen',['../class_deteccion.html#a4ad6dff1797faa5c91f163572a88cf01',1,'Deteccion']]],
+  ['pintarimagen',['pintarImagen',['../class_deteccion.html#a06dbf18b4e9bfad0242b69c4d7bb41ee',1,'Deteccion']]],
   ['pixel',['Pixel',['../class_pixel.html',1,'Pixel'],['../class_pixel.html#a27ad99a2f705e635c42d242d530d4756',1,'Pixel::Pixel()']]],
   ['pixel_2ecpp',['pixel.cpp',['../pixel_8cpp.html',1,'']]],
   ['pixel_2eh',['pixel.h',['../pixel_8h.html',1,'']]],

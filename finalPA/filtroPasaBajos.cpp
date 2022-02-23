@@ -24,8 +24,6 @@ void FiltroPasaBajos::procesarImagen(Imagen *pImagen)
                     + pImagen->getPixel(i,j-1);
 
             nuevoPixel = auxPixel*auxKernel;
-
-//            auxImagen.setPixel(i,j,nuevoPixel);
             auxImagen.modificarRGBij(i,j,nuevoPixel.getR(),nuevoPixel.getG(),nuevoPixel.getB());
             auxImagen.controlMaxRangoDinamico(i,j);
         }

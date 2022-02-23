@@ -5,7 +5,7 @@ var searchData=
   ['listadodeimagenes',['listadoDeImagenes',['../class_graficador.html#a49123df374f026a667259ee77841ca52',1,'Graficador']]],
   ['listadoimagenes',['listadoImagenes',['../class_sistema.html#a78279d49dc04f3c5e44ba44c22f0d809',1,'Sistema']]],
   ['listadolut',['listadoLUT',['../class_graficador.html#a85982ca6e90985ffcbdff69c8950a281',1,'Graficador']]],
-  ['lut',['LUT',['../class_l_u_t.html',1,'LUT'],['../class_l_u_t.html#a5fd7a4d70905dd7b338a3af054ca1619',1,'LUT::LUT()'],['../class_graficador.html#a59d2beee5f2fef6eb2e0b1a48674c55a',1,'Graficador::lut()']]],
+  ['lut',['LUT',['../class_l_u_t.html',1,'LUT'],['../class_graficador.html#a59d2beee5f2fef6eb2e0b1a48674c55a',1,'Graficador::lut()'],['../class_l_u_t.html#a5fd7a4d70905dd7b338a3af054ca1619',1,'LUT::LUT()']]],
   ['lut_2ecpp',['LUT.cpp',['../_l_u_t_8cpp.html',1,'']]],
   ['lut_2eh',['LUT.h',['../_l_u_t_8h.html',1,'']]]
 ];
