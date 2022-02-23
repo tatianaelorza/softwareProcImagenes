@@ -1,0 +1,16 @@
+debug/LUT.o
+debug/administradorArchivos.o
+debug/archivoAIC.o
+debug/archivoPNM.o
+debug/deteccion.o
+debug/estadistica.o
+debug/filtro.o
+debug/filtroMediana.o
+debug/filtroPasaAltos.o
+debug/filtroPasaBajos.o
+debug/graficador.o
+debug/imagen.o
+debug/interfaz.o
+debug/main.o
+debug/pixel.o
+debug/sistema.o

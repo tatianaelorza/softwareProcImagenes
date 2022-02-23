@@ -1,0 +1,16 @@
+release/LUT.o
+release/administradorArchivos.o
+release/archivoAIC.o
+release/archivoPNM.o
+release/deteccion.o
+release/estadistica.o
+release/filtro.o
+release/filtroMediana.o
+release/filtroPasaAltos.o
+release/filtroPasaBajos.o
+release/graficador.o
+release/imagen.o
+release/interfaz.o
+release/main.o
+release/pixel.o
+release/sistema.o

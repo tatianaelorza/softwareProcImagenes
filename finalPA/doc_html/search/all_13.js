@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['valorazulmasrepetido',['valorAzulMasRepetido',['../class_estadistica.html#a75599ebec7759c18c4a59f9f9417b116',1,'Estadistica']]],
+  ['valoresb',['valoresB',['../class_estadistica.html#a24c05da6f690a3031248b18da94ffcb6',1,'Estadistica']]],
+  ['valoresg',['valoresG',['../class_estadistica.html#aefed2a5ffb0990bc20cc60396ea51498',1,'Estadistica']]],
+  ['valoresr',['valoresR',['../class_estadistica.html#ad16d7a8d0ca76d77d9e11c33013d23ba',1,'Estadistica']]],
+  ['valormasrepetido',['valorMasRepetido',['../class_estadistica.html#a1155ac91badf6580a252188e90c4c649',1,'Estadistica']]],
+  ['valormasrepetidointensidadpromedio',['valorMasRepetidoIntensidadPromedio',['../class_estadistica.html#a0b2c9057d7df0de9a7063eae16a9e43a',1,'Estadistica']]],
+  ['valormax',['valorMax',['../class_estadistica.html#a5ae6bdc7dbd2540c70eef21180397655',1,'Estadistica']]],
+  ['valormin',['valorMin',['../class_estadistica.html#aaf492508862ca357832a4af46ac4ff66',1,'Estadistica']]],
+  ['valorrojomasrepetido',['valorRojoMasRepetido',['../class_estadistica.html#a9285f367f2a98e6ad8d2a3be798c2d58',1,'Estadistica']]],
+  ['valorverdemasrepetido',['valorVerdeMasRepetido',['../class_estadistica.html#ae50eabebb60240f7d1e60497ddfde5e5',1,'Estadistica']]],
+  ['vecesvalorazulmasrepetido',['vecesValorAzulMasRepetido',['../class_estadistica.html#a7e2ba44274a162bcb8b5d38fcf20519a',1,'Estadistica']]],
+  ['vecesvalormasrepetido',['vecesValorMasRepetido',['../class_estadistica.html#a25173303468264a8b0a1f016e8c30e1b',1,'Estadistica']]],
+  ['vecesvalormasrepetidointensidadpromedio',['vecesValorMasRepetidoIntensidadPromedio',['../class_estadistica.html#aaa42e743c789ce39794975b8893b4ede',1,'Estadistica']]],
+  ['vecesvalormax',['vecesValorMax',['../class_estadistica.html#a0875f4c97a98a2790a8cafdda278b6d0',1,'Estadistica']]],
+  ['vecesvalormin',['vecesValorMin',['../class_estadistica.html#a02e748e87319a409dd436557563332ae',1,'Estadistica']]],
+  ['vecesvalorrojomasrepetido',['vecesValorRojoMasRepetido',['../class_estadistica.html#a0ba6a2206e8d6e6ee51792606eabf164',1,'Estadistica']]],
+  ['vecesvalorverdemasrepetido',['vecesValorVerdeMasRepetido',['../class_estadistica.html#addb7588404479c45321db42277702c6a',1,'Estadistica']]],
+  ['vectorrepeticionespromediointensidades',['vectorRepeticionesPromedioIntensidades',['../class_estadistica.html#a10755ec73d9b48b7ff6c3996ff083406',1,'Estadistica']]],
+  ['vectorrepeticionesvaloresb',['vectorRepeticionesValoresB',['../class_estadistica.html#a3b948af11d268b9c7bb0d88edd29ce91',1,'Estadistica']]],
+  ['vectorrepeticionesvaloresg',['vectorRepeticionesValoresG',['../class_estadistica.html#aa205733b2fdc7ac57cc110c05afbdd7c',1,'Estadistica']]],
+  ['vectorrepeticionesvaloresr',['vectorRepeticionesValoresR',['../class_estadistica.html#a623cec7904c1e5b35e2fea214f71a2a8',1,'Estadistica']]]
+];

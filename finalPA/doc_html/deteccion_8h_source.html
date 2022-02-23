@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...): Fichero Fuente deteccion.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...)
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('deteccion_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">deteccion.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="deteccion_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DETECCION_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DETECCION_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="imagen_8h.html">imagen.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_deteccion.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_deteccion.html">Deteccion</a>{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="class_deteccion.html#a3fc30d65bd3ae388c62ece00ed57cc44">Deteccion</a>();</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_deteccion.html#aa37a8cd5138352b6fb644a57f8492acb">procesarImagen</a>(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna, <a class="code" href="class_imagen.html">Imagen</a> *pImagen);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_deteccion.html#a485836bfada18ae05b4e1b133085c19a">algoritmoDelPintor</a>(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna, <span class="keywordtype">char</span> pLado);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_deteccion.html#a35ef1b32c641eebcd9b354a8dd8ffac5">diferenciaColor</a>(<a class="code" href="class_pixel.html">Pixel</a> pPixel1, <a class="code" href="class_pixel.html">Pixel</a> pPixel2, <span class="keywordtype">int</span> maxRangoDinamico);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_deteccion.html#a5eac991cc01355ba3c1671234045c40f">getAreaPintada</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_deteccion.html#a4ad6dff1797faa5c91f163572a88cf01">pintarImagen</a>();</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_deteccion.html#aa13d6c1bbe245e4bbf35cf3892588112">   50</a></span>&#160;    vector&lt;vector&lt;bool&gt;&gt; <a class="code" href="class_deteccion.html#aa13d6c1bbe245e4bbf35cf3892588112">regionInteres</a>;</div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_deteccion.html#a3da43d1268ae76917b18e6231015d7aa">   54</a></span>&#160;    <a class="code" href="class_imagen.html">Imagen</a> *<a class="code" href="class_deteccion.html#a3da43d1268ae76917b18e6231015d7aa">auxImagen</a>;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_deteccion.html#a2d9b56075a7059acbe7b587ceb73e572">   59</a></span>&#160;    <a class="code" href="class_pixel.html">Pixel</a> <a class="code" href="class_deteccion.html#a2d9b56075a7059acbe7b587ceb73e572">pixelInicial</a>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_deteccion.html#af5218920bb5a7cd41bfef30ce30be30c">   64</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_deteccion.html#af5218920bb5a7cd41bfef30ce30be30c">areaPintada</a>;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_deteccion.html#a39007ec4f609b2feaf5f3174ae04b075">   69</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_deteccion.html#a39007ec4f609b2feaf5f3174ae04b075">tolerancia</a>;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;};</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif // DETECCION_H</span></div><div class="ttc" id="class_deteccion_html_aa13d6c1bbe245e4bbf35cf3892588112"><div class="ttname"><a href="class_deteccion.html#aa13d6c1bbe245e4bbf35cf3892588112">Deteccion::regionInteres</a></div><div class="ttdeci">vector&lt; vector&lt; bool &gt; &gt; regionInteres</div><div class="ttdoc">regionInteres almacena información al respecto de los pixeles. Si fueron pintados, esas posiciones tendrán un valor true. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8h_source.html#l00050">deteccion.h:50</a></div></div>
+<div class="ttc" id="class_deteccion_html_a3da43d1268ae76917b18e6231015d7aa"><div class="ttname"><a href="class_deteccion.html#a3da43d1268ae76917b18e6231015d7aa">Deteccion::auxImagen</a></div><div class="ttdeci">Imagen * auxImagen</div><div class="ttdoc">auxImagen es un puntero que hace referencia a la imagen qie queremos procesar. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8h_source.html#l00054">deteccion.h:54</a></div></div>
+<div class="ttc" id="class_deteccion_html_a485836bfada18ae05b4e1b133085c19a"><div class="ttname"><a href="class_deteccion.html#a485836bfada18ae05b4e1b133085c19a">Deteccion::algoritmoDelPintor</a></div><div class="ttdeci">void algoritmoDelPintor(int pFila, int pColumna, char pLado)</div><div class="ttdoc">algoritmoDelPintor analiza os pixeles vecinos al pixel central y modifica los valores de la region de...</div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8cpp_source.html#l00019">deteccion.cpp:19</a></div></div>
+<div class="ttc" id="class_deteccion_html_a4ad6dff1797faa5c91f163572a88cf01"><div class="ttname"><a href="class_deteccion.html#a4ad6dff1797faa5c91f163572a88cf01">Deteccion::pintarImagen</a></div><div class="ttdeci">void pintarImagen()</div><div class="ttdoc">pintarImagen permite pintar la estructura detecada en la imagen. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8cpp_source.html#l00054">deteccion.cpp:54</a></div></div>
+<div class="ttc" id="class_deteccion_html_a3fc30d65bd3ae388c62ece00ed57cc44"><div class="ttname"><a href="class_deteccion.html#a3fc30d65bd3ae388c62ece00ed57cc44">Deteccion::Deteccion</a></div><div class="ttdeci">Deteccion()</div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8cpp_source.html#l00002">deteccion.cpp:2</a></div></div>
+<div class="ttc" id="class_deteccion_html_a35ef1b32c641eebcd9b354a8dd8ffac5"><div class="ttname"><a href="class_deteccion.html#a35ef1b32c641eebcd9b354a8dd8ffac5">Deteccion::diferenciaColor</a></div><div class="ttdeci">float diferenciaColor(Pixel pPixel1, Pixel pPixel2, int maxRangoDinamico)</div><div class="ttdoc">diferenciaColor permite retornar la diferencia de colores entre el pixel central y el pixel vecino...</div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8cpp_source.html#l00070">deteccion.cpp:70</a></div></div>
+<div class="ttc" id="class_deteccion_html_a2d9b56075a7059acbe7b587ceb73e572"><div class="ttname"><a href="class_deteccion.html#a2d9b56075a7059acbe7b587ceb73e572">Deteccion::pixelInicial</a></div><div class="ttdeci">Pixel pixelInicial</div><div class="ttdoc">pixelInicial es el pixel central, que se utilizar para comparar con los pixeles vecinos. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8h_source.html#l00059">deteccion.h:59</a></div></div>
+<div class="ttc" id="class_deteccion_html_af5218920bb5a7cd41bfef30ce30be30c"><div class="ttname"><a href="class_deteccion.html#af5218920bb5a7cd41bfef30ce30be30c">Deteccion::areaPintada</a></div><div class="ttdeci">int areaPintada</div><div class="ttdoc">areaPintada almacena información respecto de la cantidad de pixeles que fueron pintados. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8h_source.html#l00064">deteccion.h:64</a></div></div>
+<div class="ttc" id="class_deteccion_html_aa37a8cd5138352b6fb644a57f8492acb"><div class="ttname"><a href="class_deteccion.html#aa37a8cd5138352b6fb644a57f8492acb">Deteccion::procesarImagen</a></div><div class="ttdeci">void procesarImagen(int pFila, int pColumna, Imagen *pImagen)</div><div class="ttdoc">procesarImagen </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8cpp_source.html#l00005">deteccion.cpp:5</a></div></div>
+<div class="ttc" id="class_deteccion_html"><div class="ttname"><a href="class_deteccion.html">Deteccion</a></div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8h_source.html#l00007">deteccion.h:7</a></div></div>
+<div class="ttc" id="class_deteccion_html_a39007ec4f609b2feaf5f3174ae04b075"><div class="ttname"><a href="class_deteccion.html#a39007ec4f609b2feaf5f3174ae04b075">Deteccion::tolerancia</a></div><div class="ttdeci">float tolerancia</div><div class="ttdoc">tolerancia permite establecer un rango de intensidades que serán detectadas como iguales. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8h_source.html#l00069">deteccion.h:69</a></div></div>
+<div class="ttc" id="imagen_8h_html"><div class="ttname"><a href="imagen_8h.html">imagen.h</a></div></div>
+<div class="ttc" id="class_deteccion_html_a5eac991cc01355ba3c1671234045c40f"><div class="ttname"><a href="class_deteccion.html#a5eac991cc01355ba3c1671234045c40f">Deteccion::getAreaPintada</a></div><div class="ttdeci">int getAreaPintada()</div><div class="ttdoc">getAreaPintada retorna el area pintada. </div><div class="ttdef"><b>Definition:</b> <a href="deteccion_8cpp_source.html#l00050">deteccion.cpp:50</a></div></div>
+<div class="ttc" id="class_pixel_html"><div class="ttname"><a href="class_pixel.html">Pixel</a></div><div class="ttdef"><b>Definition:</b> <a href="pixel_8h_source.html#l00007">pixel.h:7</a></div></div>
+<div class="ttc" id="class_imagen_html"><div class="ttname"><a href="class_imagen.html">Imagen</a></div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00010">imagen.h:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="deteccion_8h.html">deteccion.h</a></li>
+    <li class="footer">Generado el Lunes, 14 de Febrero de 2022 03:43:42 para Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...) por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

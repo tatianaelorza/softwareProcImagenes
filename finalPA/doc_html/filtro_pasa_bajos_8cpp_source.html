@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...): Fichero Fuente filtroPasaBajos.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...)
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('filtro_pasa_bajos_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">filtroPasaBajos.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="filtro_pasa_bajos_8cpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="filtro_pasa_bajos_8h.html">filtroPasaBajos.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="class_filtro_pasa_bajos.html#afc656698fc72c1ec398356a27f3fa931">    3</a></span>&#160;<a class="code" href="class_filtro_pasa_bajos.html#afc656698fc72c1ec398356a27f3fa931">FiltroPasaBajos::FiltroPasaBajos</a>()</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_filtro_pasa_bajos.html#a764f7fe2376edc2d31f66b9775117d4c">    8</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_filtro_pasa_bajos.html#a764f7fe2376edc2d31f66b9775117d4c">FiltroPasaBajos::procesarImagen</a>(<a class="code" href="class_imagen.html">Imagen</a> *pImagen)</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">float</span> auxKernel = 0.11;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="class_imagen.html">Imagen</a> auxImagen = *pImagen;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_pixel.html">Pixel</a> auxPixel, nuevoPixel;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i&lt;auxImagen.<a class="code" href="class_imagen.html#ab9ebd792317c4d56cf8dc4b8d6e1a178">getAltoImagen</a>()-1; i++)</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 1; j&lt;auxImagen.<a class="code" href="class_imagen.html#aa3ca2989db04cf52b3254d35b297b275">getAnchoImagen</a>()-1; j++)</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            auxPixel = pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i,j) + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i-1,j-1)</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                    + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i-1,j) + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i-1,j+1)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                    + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i,j+1) + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i+1,j+1)</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                    + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i+1,j) + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i+1,j-1)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                    + pImagen-&gt;<a class="code" href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">getPixel</a>(i,j-1);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            nuevoPixel = auxPixel*auxKernel;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            auxImagen.<a class="code" href="class_imagen.html#a2dc48d98d687261d264bbd2a28e13cb9">setPixel</a>(i,j,nuevoPixel);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            auxImagen.<a class="code" href="class_imagen.html#abe9563f4611d21fcf0504437a57fb759">controlMaxRangoDinamico</a>(i,j);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    *pImagen = auxImagen;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div><div class="ttc" id="class_filtro_pasa_bajos_html_a764f7fe2376edc2d31f66b9775117d4c"><div class="ttname"><a href="class_filtro_pasa_bajos.html#a764f7fe2376edc2d31f66b9775117d4c">FiltroPasaBajos::procesarImagen</a></div><div class="ttdeci">void procesarImagen(Imagen *pImagen) override</div><div class="ttdoc">procesarImagen es un método redefinido de Filtro para aplicar el filtro pasa bajos a la imagen...</div><div class="ttdef"><b>Definition:</b> <a href="filtro_pasa_bajos_8cpp_source.html#l00008">filtroPasaBajos.cpp:8</a></div></div>
+<div class="ttc" id="class_filtro_pasa_bajos_html_afc656698fc72c1ec398356a27f3fa931"><div class="ttname"><a href="class_filtro_pasa_bajos.html#afc656698fc72c1ec398356a27f3fa931">FiltroPasaBajos::FiltroPasaBajos</a></div><div class="ttdeci">FiltroPasaBajos()</div><div class="ttdef"><b>Definition:</b> <a href="filtro_pasa_bajos_8cpp_source.html#l00003">filtroPasaBajos.cpp:3</a></div></div>
+<div class="ttc" id="class_imagen_html_a660f1886407c35040144b75eae30e0f0"><div class="ttname"><a href="class_imagen.html#a660f1886407c35040144b75eae30e0f0">Imagen::getPixel</a></div><div class="ttdeci">Pixel getPixel(int pFila, int pColumna)</div><div class="ttdoc">getPixel permite retornar un objeto de la clase Pixel en una ubicacion (i,j) dentro de la matrizImage...</div><div class="ttdef"><b>Definition:</b> <a href="imagen_8cpp_source.html#l00044">imagen.cpp:44</a></div></div>
+<div class="ttc" id="class_imagen_html_aa3ca2989db04cf52b3254d35b297b275"><div class="ttname"><a href="class_imagen.html#aa3ca2989db04cf52b3254d35b297b275">Imagen::getAnchoImagen</a></div><div class="ttdeci">int getAnchoImagen()</div><div class="ttdoc">getAnchoImagen permite retornar el valor del ancho de la imagen. </div><div class="ttdef"><b>Definition:</b> <a href="imagen_8cpp_source.html#l00032">imagen.cpp:32</a></div></div>
+<div class="ttc" id="class_imagen_html_ab9ebd792317c4d56cf8dc4b8d6e1a178"><div class="ttname"><a href="class_imagen.html#ab9ebd792317c4d56cf8dc4b8d6e1a178">Imagen::getAltoImagen</a></div><div class="ttdeci">int getAltoImagen()</div><div class="ttdoc">getAltoImagen permite retornar el valor del alto de la imagen. </div><div class="ttdef"><b>Definition:</b> <a href="imagen_8cpp_source.html#l00024">imagen.cpp:24</a></div></div>
+<div class="ttc" id="filtro_pasa_bajos_8h_html"><div class="ttname"><a href="filtro_pasa_bajos_8h.html">filtroPasaBajos.h</a></div></div>
+<div class="ttc" id="class_imagen_html_a2dc48d98d687261d264bbd2a28e13cb9"><div class="ttname"><a href="class_imagen.html#a2dc48d98d687261d264bbd2a28e13cb9">Imagen::setPixel</a></div><div class="ttdeci">void setPixel(int pFila, int pColumna, Pixel pPixel)</div><div class="ttdoc">setPixel permite modificar el valor de un objeto de la clase Pixel que se encuentra en la posición (i...</div><div class="ttdef"><b>Definition:</b> <a href="imagen_8cpp_source.html#l00048">imagen.cpp:48</a></div></div>
+<div class="ttc" id="class_pixel_html"><div class="ttname"><a href="class_pixel.html">Pixel</a></div><div class="ttdef"><b>Definition:</b> <a href="pixel_8h_source.html#l00007">pixel.h:7</a></div></div>
+<div class="ttc" id="class_imagen_html_abe9563f4611d21fcf0504437a57fb759"><div class="ttname"><a href="class_imagen.html#abe9563f4611d21fcf0504437a57fb759">Imagen::controlMaxRangoDinamico</a></div><div class="ttdeci">void controlMaxRangoDinamico(int pfila, int pcolumna)</div><div class="ttdoc">controlMaxRangoDinamico realiza un control en un pixel para saber si su valor se encuentra por debajo...</div><div class="ttdef"><b>Definition:</b> <a href="imagen_8cpp_source.html#l00178">imagen.cpp:178</a></div></div>
+<div class="ttc" id="class_imagen_html"><div class="ttname"><a href="class_imagen.html">Imagen</a></div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00010">imagen.h:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="filtro_pasa_bajos_8cpp.html">filtroPasaBajos.cpp</a></li>
+    <li class="footer">Generado el Lunes, 14 de Febrero de 2022 03:43:42 para Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...) por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...): Fichero Fuente imagen.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...)
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('imagen_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">imagen.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="imagen_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef IMAGEN_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define IMAGEN_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="pixel_8h.html">pixel.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_imagen.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_imagen.html">Imagen</a></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="class_imagen.html">Imagen</a>();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> generarMatriz(<span class="keywordtype">int</span> pAltoImagen, <span class="keywordtype">int</span> pAnchoImagen);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> modificarRGBij(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna, <span class="keywordtype">float</span> r, <span class="keywordtype">float</span> g, <span class="keywordtype">float</span> b);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">int</span> getMaxRangoDinamico();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">void</span> setMaxRangoDinamico(<span class="keywordtype">int</span> pRango);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> setAltoImagen(<span class="keywordtype">int</span> pAltoImagen);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">int</span> getAltoImagen();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> setAnchoImagen(<span class="keywordtype">int</span> pAnchoImagen);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">int</span> getAnchoImagen();</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">void</span> setMetadatos(<span class="keywordtype">string</span> pMetadatos);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">string</span> getMetadatos();</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="class_pixel.html">Pixel</a> getPixel(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">void</span> setPixel(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna, <a class="code" href="class_pixel.html">Pixel</a> pPixel);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">float</span> getValorR(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordtype">float</span> getValorG(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">float</span> getValorB(<span class="keywordtype">int</span> pFila, <span class="keywordtype">int</span> pColumna);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordtype">void</span> cambiarBrillo(<span class="keywordtype">float</span> pCantBrillo);</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordtype">void</span> ajustarContrasteImagen();</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordtype">void</span> negativizarImagen();</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordtype">void</span> binarizarImagen(<span class="keywordtype">float</span> pIntensidad);</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordtype">void</span> controlMaxRangoDinamico(<span class="keywordtype">int</span> pfila, <span class="keywordtype">int</span> pcolumna);</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        ~<a class="code" href="class_imagen.html">Imagen</a>();</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="class_imagen.html#a8c224005aefe52abc5195a0b06804d88">  147</a></span>&#160;        vector&lt;vector&lt;Pixel&gt;&gt; <a class="code" href="class_imagen.html#a8c224005aefe52abc5195a0b06804d88">imagen</a>;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div><div class="line"><a name="l00152"></a><span class="lineno"><a class="line" href="class_imagen.html#ae4faa339b179a7213bf4fba5065824ad">  152</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_imagen.html#ae4faa339b179a7213bf4fba5065824ad">anchoImagen</a>;</div><div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="class_imagen.html#a2f794d0833e5ab6f6362b2992cdb37f7">  156</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_imagen.html#a2f794d0833e5ab6f6362b2992cdb37f7">altoImagen</a>;</div><div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="class_imagen.html#a2b15797f352049cdeba86cbf53bb32f7">  160</a></span>&#160;        <span class="keywordtype">string</span> <a class="code" href="class_imagen.html#a2b15797f352049cdeba86cbf53bb32f7">metadatos</a>;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div><div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="class_imagen.html#a3f943209efc3706c83ce644e1af2d44a">  165</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_imagen.html#a3f943209efc3706c83ce644e1af2d44a">maxRangoDinamico</a>;</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;};</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">#endif // IMAGEN_H</span></div><div class="ttc" id="class_imagen_html_a2b15797f352049cdeba86cbf53bb32f7"><div class="ttname"><a href="class_imagen.html#a2b15797f352049cdeba86cbf53bb32f7">Imagen::metadatos</a></div><div class="ttdeci">string metadatos</div><div class="ttdoc">metadatos almacena los metadatos extraidos del archivo de lectura de la imagen </div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00160">imagen.h:160</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdoc">STL namespace. </div></div>
+<div class="ttc" id="pixel_8h_html"><div class="ttname"><a href="pixel_8h.html">pixel.h</a></div></div>
+<div class="ttc" id="class_imagen_html_a2f794d0833e5ab6f6362b2992cdb37f7"><div class="ttname"><a href="class_imagen.html#a2f794d0833e5ab6f6362b2992cdb37f7">Imagen::altoImagen</a></div><div class="ttdeci">int altoImagen</div><div class="ttdoc">altoImagen almacena la cantidad de pixeles de alto que tiene la imagen. </div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00156">imagen.h:156</a></div></div>
+<div class="ttc" id="class_imagen_html_ae4faa339b179a7213bf4fba5065824ad"><div class="ttname"><a href="class_imagen.html#ae4faa339b179a7213bf4fba5065824ad">Imagen::anchoImagen</a></div><div class="ttdeci">int anchoImagen</div><div class="ttdoc">anchoImagen almacena la cantidad de pixeles de ancho que tiene la imagen. </div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00152">imagen.h:152</a></div></div>
+<div class="ttc" id="class_imagen_html_a8c224005aefe52abc5195a0b06804d88"><div class="ttname"><a href="class_imagen.html#a8c224005aefe52abc5195a0b06804d88">Imagen::imagen</a></div><div class="ttdeci">vector&lt; vector&lt; Pixel &gt; &gt; imagen</div><div class="ttdoc">imagen es la matriz de pixeles que hace a la imagen. </div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00147">imagen.h:147</a></div></div>
+<div class="ttc" id="class_pixel_html"><div class="ttname"><a href="class_pixel.html">Pixel</a></div><div class="ttdef"><b>Definition:</b> <a href="pixel_8h_source.html#l00007">pixel.h:7</a></div></div>
+<div class="ttc" id="class_imagen_html"><div class="ttname"><a href="class_imagen.html">Imagen</a></div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00010">imagen.h:10</a></div></div>
+<div class="ttc" id="class_imagen_html_a3f943209efc3706c83ce644e1af2d44a"><div class="ttname"><a href="class_imagen.html#a3f943209efc3706c83ce644e1af2d44a">Imagen::maxRangoDinamico</a></div><div class="ttdeci">int maxRangoDinamico</div><div class="ttdoc">maxRangoDinamico almacena el valor maximo del rango dinamico que puede tomar cada pixel ...</div><div class="ttdef"><b>Definition:</b> <a href="imagen_8h_source.html#l00165">imagen.h:165</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="imagen_8h.html">imagen.h</a></li>
+    <li class="footer">Generado el Lunes, 14 de Febrero de 2022 03:43:42 para Mi Proyecto de Prog. Avanzada (busca esto en el archivo  doxy.config si quieres modificarlo...) por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
